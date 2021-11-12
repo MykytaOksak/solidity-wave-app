@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## React + solidity app
 
-Try it on 
+Try it on https://solidity-wave-app.vercel.app/
 
 ## Running Scripts
 
