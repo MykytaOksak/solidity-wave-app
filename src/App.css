@@ -1,0 +1,67 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.dataContainer>*{
+  margin-top: 16px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+}
+
+.waveButton {
+  flex: 1;
+  cursor: pointer;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px; 
+  background-color: rgb(77, 169, 255);
+  color: white;
+  font-weight: 500;
+}
+
+.userMsgInput {
+  flex: 3;
+  margin-right: 10px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(223, 226, 230);
+  padding: 0 10px;
+}
+
+.waveForm {
+  display: flex;
+  flex-direction: row;
+}
+
+.msgBlock {
+  border: 0;
+  border-radius: 5px;
+  background-color: oldlace;
+  margin-top: 12px;
+  padding: 10px 20px;
+  color: rgb(36, 36, 36);
+}
+
+.totalWaves {
+  color: gray;
+  margin-top: 30px;
+}
